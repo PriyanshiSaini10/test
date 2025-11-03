@@ -51,7 +51,7 @@ export default function Contact() {
       className="min-h-screen flex items-center justify-center px-6 py-20 text-white relative overflow-hidden"
       style={{
         background:
-          "radial-gradient(120% 140% at 50% 20%, #0a011a 40%, #3b0a61 70%, #8b5cf6 100%)",
+          "radial-gradient(120% 140% at 50% 20%, #150b2d 30%, #4b1f77 65%, #9d7efc 100%)",
       }}
     >
       {/* soft overlay */}
