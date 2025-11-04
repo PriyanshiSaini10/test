@@ -3,6 +3,7 @@ import Navbar from "./Components/Navbar";
 import Profile from "./Components/Profile";
 import Tech from "./Components/Tech";
 import Expe from './Components/Expe';
+import Project from "./Components/Project";
 import Contact from "./Components/Contact";
 import Footer from './Components/Footer';
 
@@ -14,6 +15,7 @@ export default function App() {
       <Profile />
       <Tech/>
       <Expe/>
+      <Project/>
       <Contact/>
       <Footer/>
     </div>

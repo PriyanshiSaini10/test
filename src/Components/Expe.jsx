@@ -32,7 +32,10 @@ export default function Expe() {
         initial={{ opacity: 0, y: -40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, ease: "easeOut" }}
-        className="text-5xl md:text-6xl font-extrabold mb-16 bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-pink-400 drop-shadow-[0_0_25px_rgba(147,51,234,0.6)]"
+        className="text-5xl md:text-6xl font-extrabold mb-16 bg-clip-text text-transparent 
+        bg-gradient-to-r from-indigo-400 to-pink-400 drop-shadow-[0_0_25px_rgba(147,51,234,0.6)]
+        leading-[1.15] tracking-wide pb-2"
+        style={{ WebkitTextStroke: "0.4px rgba(255,255,255,0.4)" }}
       >
         Work Experience
       </motion.h1>
@@ -52,7 +55,9 @@ export default function Expe() {
               boxShadow: "0 10px 45px rgba(139,92,246,0.6)",
               transition: { type: "spring", stiffness: 250, damping: 15 },
             }}
-            className="relative flex flex-col md:flex-row items-center gap-6 p-6 rounded-2xl bg-white/10 backdrop-blur-md border border-white/20 shadow-[0_0_25px_rgba(139,92,246,0.25)] transition-all duration-300 ease-out hover:bg-white/15 cursor-pointer"
+            className="relative flex flex-col md:flex-row items-center gap-6 p-6 rounded-2xl bg-white/10 
+            backdrop-blur-md border border-white/20 shadow-[0_0_25px_rgba(139,92,246,0.25)] 
+            transition-all duration-300 ease-out hover:bg-white/15 cursor-pointer"
           >
             {/* Logo with glow & hover pulse */}
             <motion.img
